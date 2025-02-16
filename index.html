@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡易メモ帳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>簡易メモ帳</h1>
+    <div class="center">
+        <textarea name="opinion" cols="50" rows="10" maxlength="200" id="item-input" placeholder="メモの内容を入力してください…"></textarea>
+        <p class="count"><span id="msgCount">0</span>/150文字</p>
+        <button type="button" id="savebutton">保存</button>
+        <button type="button" id="removeBtn">全てのデータの削除</button>
+    </div>
+    <table id="itemList"></table>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
